@@ -1,0 +1,8 @@
+Kotlin入门地址：https://blog.csdn.net/aqi00/article/details/75283548
+
+
+git 无法忽略Android Studio 生成的 .idea目录解决办法
+在Android Studio中导入了别的人Gradle项目，产生了 .idea文件夹， 然后git 发现了这个变动，修改了 .gitignore不起作用，仍然不能忽略这个文件夹
+在项目目录里面 右键 git bash here
+输入命令
+git rm -rf --cached .idea
