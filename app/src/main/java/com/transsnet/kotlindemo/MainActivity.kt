@@ -67,4 +67,16 @@ class MainActivity : AppCompatActivity() {
 
 
     }
+
+    fun test(water: String?, food: Int): IntArray {
+        println("test 方法")
+        var s: IntArray = intArrayOf(1,2,3)
+        return s
+    }
+}
+
+fun <T> test1(vararg ss:String){
+    for (item in ss){
+
+    }
 }
